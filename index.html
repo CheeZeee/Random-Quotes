@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ultra|Open+Sans">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Quote Generator</title>
+  </head>
+  <body>
+    <div class="header text-center">
+      <h1>Random Quotes</h1>
+      <h4>Click the <a href="#new-quote"><strong>New Quote</strong></a> button to display a random quote and share/tweet the ones you like!</h4>
+      <hr />
+    </div> <!-- /header-->
+      <div class="quote-box">
+        <div>
+          <blockquote><span id="quote-text"></span></blockquote>
+        </div>
+        <div>
+          <span id="quote-author"></span></div>
+        <div class="buttons">
+          <button type="button" id="facebook-quote" class="btn btn-primary" title="Share on FaceBook"><i class="fa fa-facebook"></i></button>
+          <button type="button" id="tweet-quote" class="btn btn-info" title="Post to twitter"><i class="fa fa-twitter"></i></button>
+          <button type="button" id="new-quote" class="btn btn-warning">New Quote</button>
+        </div> <!-- /buttons -->
+      </div> <!-- /quote-box -->
+
+      <footer class="text-center" id="footer"><kbd>By Chika Onwueyi</kbd></footer>
+
+
+    </div> <!-- /container-fluid -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

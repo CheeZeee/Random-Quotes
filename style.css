@@ -1,0 +1,62 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans);*/
+
+body {
+  display: block;
+  background-image: url(colorbox.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+hr {
+  border-color: #483d8b;
+}
+.header {
+  margin-top: 50px;
+}
+
+div h1 {
+  font-size: 3em;
+  font-weight: 100;
+  font-family: "Ultra", sans-serif;
+  color: #483d8b;
+}
+div p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.quote-box {
+  border: 2px solid #777;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  padding: 15px 10px 7px;
+  margin: 5% auto 1% auto;
+  position: relative;
+  width: 550px;
+  background-color: lightgreen;
+  color: #483d8b;
+  height: auto;
+  box-shadow: 3px 3px 3px;
+}
+
+#quote-text{
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+#quote-author {
+  font-family: monospace;
+  width: 500px;
+  float: right;
+  text-align: right;
+  margin: 0 40px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+buttons {
+  margin: auto;
+  width: 500px;
+  padding-top: 20px;
+}
+
+#new-quote {
+  float: right;
+}
